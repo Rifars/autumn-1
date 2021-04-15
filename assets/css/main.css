@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+.attribute{
+    text-align: center;
+}
+
+.attribute a {
+    color: #666666;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+}
+
+.container {
+    width: 85%;
+}
+
+.text-orange {
+    color: #fca05f !important;
+}
+.text-red {
+    color: #b50f35 !important;
+}
+.text-abu{
+    color: #666666;
+}
+
+.bg-orange{
+    background-color: #fca05f;
+}
+.bg-orange-1{
+    background-color: #fedbbd;
+}
+
+a.text-abu:hover {
+    background: none;
+    color: #fca05f;
+    transition: .3s;
+}
+
+.icon a:hover {
+    transition: .3s;
+    background: none;
+    filter: brightness(.8);
+}
+
+.nama-logo {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.bulat {
+    background-color: #fca05f;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.header {
+    margin-top: 50px;
+    padding: 20px 0 ;
+    box-sizing: border-box;
+}
+
+.form {
+
+    position: relative;
+}
+form:hover{
+    border: none !important;
+    
+}
+.form .search:hover{
+    border: none !important;
+   
+}
+form:focus{
+    border: none !important;
+    
+}
+.form .search:focus{
+    border: none !important;
+    
+}
+.form .search {
+    border: none !important;
+    background-color: white !important;
+    height: 35px;
+    width: 75% !important;
+    border-radius: 25px !important;
+    padding-left: 55px !important;
+    font-style: italic;
+}
+
+.icon-search{
+    font-size: 21px;
+    top: 10px;
+    left: 20px;
+    position: absolute;
+}
+
+.img {
+    width: 100%;
+    top: -50px;
+    left: -50px;
+    position: absolute;
+}
+@media screen and (max-width:425px){
+    .gambar {
+        display: none;
+    }
+    .form .search{
+        width: 79% !important;
+    }
+    .text{
+        padding: 20px !important;
+    }
+
+    .header {
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width: 768px) and (min-width:425px){
+    .gambar {
+        display: none;
+    }
+    .form .search{
+        width: 90% !important;
+    }
+
+}
