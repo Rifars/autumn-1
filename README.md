@@ -1,5 +1,5 @@
 # Slicing 
-![3606208](https://github.com/Rifars/autumn/blob/0b4aa4676a4c9fc5c640019ae50feb75bea8a92e/4018353.jpg)
+![3606208](https://github.com/Rifars/autumn-1/blob/main/4018353.jpg)
 <br><br><br>
 ## <a href='https://rifars.github.io/autumn/'>Demo</a>
 ## Built using:
